@@ -1,8 +1,8 @@
 ---
-title: 70. Extensions
+title: 70. 확장하기
 description: 
 published: true
-date: 2025-07-17T02:38:52.695Z
+date: 2025-08-10T23:09:49.421Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-17T02:38:52.695Z
