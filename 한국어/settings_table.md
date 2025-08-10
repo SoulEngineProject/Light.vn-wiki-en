@@ -1,11 +1,11 @@
 ---
-title: 60. Settings
-description: Information on various settings
+title: 60. 설정
+description: 여러 설정에 관한 정보
 published: true
-date: 2025-07-19T14:59:24.859Z
+date: 2025-08-10T23:10:26.643Z
 tags: 
 editor: markdown
-dateCreated: 2025-07-19T14:58:58.291Z
+dateCreated: 2025-07-29T01:22:42.435Z
 ---
 
 ## 변수 연산
