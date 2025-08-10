@@ -59,11 +59,11 @@ dateCreated: 2025-07-17T02:35:45.497Z
 [Light.vn](https://soulengineproject.itch.io/lightvn)을 처음 사용할 때는 `LightEditor.exe`에서 탐색법을 먼저 익히는 것이 좋습니다.
 
 1. 파일 선택 (예: `start0.txt`)
-2. `Scripts` 탭 열기
+2. `스크립트` 탭 열기
 3. 스크립트의 여러 줄을 클릭해 보면서  
    - 미리보기 화면이 업데이트되는지  
    - 탭 정보의 줄 번호가 커서 위치에 맞춰 변하는지 확인합니다.
-
+  
 <img alt="image" src="https://github.com/user-attachments/assets/a99240d0-0a6b-4bcd-bcb7-316e99f773b9" />
 
 ## 에디터 탐색 (2: 테스트 플레이 ↔ 편집 모드)
@@ -71,10 +71,10 @@ dateCreated: 2025-07-17T02:35:45.497Z
 - 특정 줄을 클릭한 뒤 `F5`를 눌러 테스트 플레이 시작
 - 다시 확인해 보세요  
   - 미리보기 화면이 업데이트  
-  - `Scripts` 탭의 줄 번호가 현재 재생되는 줄로 변경
+  - `스크립트` 탭의 줄 번호가 현재 재생되는 줄로 변경
 - `F5`를 다시 눌러 편집 모드로 복귀  
   - 미리보기가 커서가 있는 줄로 돌아갑니다  
-  - `Scripts` 탭에서 다시 확인 가능합니다.
+  - `스크립트` 탭에서 다시 확인 가능합니다.
 
 `F5`를 반복해서 눌러 전환 감각을 익혀 보세요.
 
@@ -82,26 +82,26 @@ dateCreated: 2025-07-17T02:35:45.497Z
 
 ## 명령어 문법 읽는 방법
 
-<img width="2559" height="1380" alt="image" src="https://github.com/user-attachments/assets/f8dc586a-75ee-44fe-b8b8-bee47a31ccda" />
+<img alt="image" src="https://github.com/user-attachments/assets/f8dc586a-75ee-44fe-b8b8-bee47a31ccda" />
 
-스크립트에서 아무 명령어나 더블 클릭하면 `Commands` 탭이 열립니다.  
+스크립트에서 아무 명령어나 더블 클릭하면 `커맨드` 탭이 열립니다.  
 각 명령어의 문법은 다음과 같이 표시됩니다.
 ```
-cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
+그림 [이름] [파일 이름 / 등록된 애니메이션 이름] [x좌표] [y좌표] [레이어(r)] (카메라옵션)
 ```
 - `[]` 안의 항목은 필수 입력
 - `()` 안의 항목은 선택 입력
 
 따라서 다음 두 가지 형태 모두 유효합니다.
-- `cg alice2 alice.png 150 30 50`
-- `cg alice2 alice.png 150 30 50 on_camera`
+- `그림 alice2 alice.png 150 30 50`
+- `그림 alice2 alice.png 150 30 50 카메라부착`
 
 ## 왼쪽의 명령어 삽입 버튼
 
 공통으로 자주 쓰는 명령어를 빠르게 삽입할 수 있도록 왼쪽(파란색)에 명령어 버튼이 있습니다.  
 해당 명령어는 **현재 스크립트 커서 위치**에 삽입됩니다.  
 
-현재 커서 위치는 에디터의 `Scripts` 탭(분홍색)에서 확인할 수 있습니다.
+현재 커서 위치는 에디터의 `스크립트` 탭(분홍색)에서 확인할 수 있습니다.
 
 테스트 플레이 중에는 실행된 줄에 맞춰 자동으로 갱신되므로, 어떤 줄이 실행 중인지 바로 알 수 있습니다.
 
@@ -117,11 +117,11 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 
 **[Light.vn](https://soulengineproject.itch.io/lightvn) 명령어** 예시:
 
-```fadein title_bg0 1500 markdown```
+```페이드인 title_bg0 1500```
 
 - 명령어인지 구분하는 방법:  
-  - 더블 클릭 시 에디터가 `Commands` 탭으로 이동하여 문법·사용법을 보여줍니다.
-
+  - 더블 클릭 시 에디터가 `페이드인` 탭으로 이동하여 문법·사용법을 보여줍니다.
+  
 <img alt="image" src="https://github.com/user-attachments/assets/c70cad59-3f46-4b90-84dc-f4f899311b95" />
 
 **대사(Dialogue)**  
@@ -132,45 +132,45 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 
 이후 줄들은 모두 대사 구간으로 처리됩니다.  
 다시 [Light.vn](https://soulengineproject.itch.io/lightvn) 명령어 구간으로 돌아가려면 새 줄을 `~` 기호로 시작하세요.
-
+  
 <img alt="image" src="https://github.com/user-attachments/assets/25d131a0-f222-45a1-9a6d-70d65085dfd1" />
 
 **매크로(Macros)**  
-예: `commandMacro` 또는 `macro` 명령으로 생성됩니다.  
+예: `커맨드매크로` 또는 `매크로` 명령으로 생성됩니다.  
 매크로 여부를 확인하는 방법:
 - 파란색이 아님
-- 더블 클릭해도 `Commands` 탭으로 이동하지 않음
+- 더블 클릭해도 `커맨드` 탭으로 이동하지 않음
 
-`commandMacro`로 등록된 경우 더블 클릭 시 `Macros` 탭으로 이동하므로 매크로임을 쉽게 알 수 있습니다.
-
+`커맨드매크로`로 등록된 경우 더블 클릭 시 `매크로` 탭으로 이동하므로 매크로임을 쉽게 알 수 있습니다.
+  
 <img alt="image" src="https://github.com/user-attachments/assets/077c3895-6007-4261-9c8f-a6292b3432c0" />
 
 매크로는 기본적으로 **찾아바꾸기** 기능입니다.  
 반복해서 길게 입력해야 하는 [Light.vn](https://soulengineproject.itch.io/lightvn) 명령어를 캡슐화하여 편의를 제공하는 것이 목적입니다.
 
 예시는 `/Plugins/lvui/_system/macros.txt`에서 확인할 수 있습니다.
-
+  
 <img alt="image" src="https://github.com/user-attachments/assets/3a42d23f-3bfc-4754-af6b-b57dd8bd9a5a" />
 
 ## 스크립트 처리 방식
 
 기억해야 할 핵심 두 가지:
 
-- 기본적으로 스크립트는 `wait` 명령을 만날 때까지 계속 실행됩니다  
-  - (또는 wait 상태를 유발하는 다른 명령어를 만날 때까지).
-- `continueRead` 명령이 호출되면 wait 상태를 벗어나 다시 실행이 이어집니다.
+- 기본적으로 스크립트는 `대기` 명령을 만날 때까지 계속 실행됩니다  
+  - (또는 `대기` 상태를 유발하는 다른 명령어를 만날 때까지).
+- `계속` 명령이 호출되면 `대기` 상태를 벗어나 다시 실행이 이어집니다.
 
-따라서 예) `/Plugins/lvui/_system/keys.txt` 안에서 여러 `keyDown` 명령에 `continueRead`가 바인딩되어 있는 것을 볼 수 있습니다.  
+따라서 예) `/Plugins/lvui/_system/keys.txt` 안에서 여러 `키다운` 명령에 `계속`가 바인딩되어 있는 것을 볼 수 있습니다.  
 특정 키를 누르면 스크립트가 계속 진행되도록 하는 구조입니다.
 
 > 참고: `/Plugins/lvui/_system/keys.txt`는 `/Plugins/lvui/_system/textbox.txt` 내부에서 호출됩니다.  
 > 기본 텍스트박스를 사용할 때 키 바인딩이 자동으로 적용되는 이유입니다.
 
-**PRO 팁**: 스크립트가 진행되지 않는다면, `continueRead`를 `keyDown` 명령에 바인딩하지 않았을 가능성이 큽니다.  
+**PRO 팁**: 스크립트가 진행되지 않는다면, `계속`를 `키다운` 명령에 바인딩하지 않았을 가능성이 큽니다.  
 (또는 문제 위치에 `script /Plugins/lvui/_system/keys.txt keybind_continueRead`를 추가하세요)
 
-에디터의 `Key Triggers` 탭에서 키 바인딩을 확인할 수 있습니다.
-
+에디터의 `Key 트리거` 탭에서 키 바인딩을 확인할 수 있습니다.
+  
 <img alt="image" src="https://github.com/user-attachments/assets/0ff70d7a-4195-42f0-b0b6-fec3a8fe915e" />
 
 ## 스크립트 처리 방식 2
@@ -178,20 +178,20 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 스크립트는 위에서 아래로 순차적으로 읽습니다.  
 흐름을 바꿀 수 있는 주요 명령은 두 가지입니다:
 
-- `jump`
-- `script`
+- `점프`
+- `스크립트`
 
-`jump`  
-- 현재 스크립트 파서를 다른 스크립트 혹은 동일 스크립트의 북마크 위치로 점프시킵니다.  
-- 점프 후에는 해당 위치부터 계속 실행되며, 이전 wait 상태도 해제됩니다.  
+`점프`  
+- 현재 스크립트 파서를 다른 스크립트 혹은 동일 스크립트의 `책갈피` 위치로 점프시킵니다.  
+- 점프 후에는 해당 위치부터 계속 실행되며, 이전 `대기` 상태도 해제됩니다.  
 - 예: 사용자 선택지 구현에 활용.
-
+  
 <img alt="image" src="https://github.com/user-attachments/assets/0ec657d5-fe37-458a-8461-1a9530c405c2" />
 
-`script`  
+`스크립트`  
 - 대상 파일로 새 스크립트 파서를 생성해 스택 최상단에 push합니다.  
-- 스크립트 스택은 `Scripts` 탭에서 확인할 수 있습니다.  
-- 스크립트가 `script_fin` 명령으로 종료되면 파서가 pop되고, 호출한 스크립트가 이어서 실행됩니다.
+- 스크립트 스택은 `스크립트` 탭에서 확인할 수 있습니다.  
+- 스크립트가 `스크립트종료` 명령으로 종료되면 파서가 pop되고, 호출한 스크립트가 이어서 실행됩니다.
 
 예시로 스크립트 스택이 증가하는 과정:
 
@@ -205,8 +205,9 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 - `7 (from: 1)` : ID 1번 스크립트가 호출
 
 호출 순서와 일치함을 확인할 수 있습니다.
-
+  
 <img alt="image" src="https://github.com/user-attachments/assets/189f88f8-2714-4223-8e5c-330e9fa1007e" />
+  
 <img alt="image" src="https://github.com/user-attachments/assets/c36f64ce-3e2d-4693-9393-8018627b1e2c" />
 
 그리고 역순으로,
@@ -214,23 +215,23 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 - 우클릭으로 설정 페이지 종료 → 스택 3 → 2
 - 우클릭으로 메뉴 종료 → 스택 2 → 1
 
-결국 `start0.txt` 211번째 줄로 돌아가며(시작 위치), 다시 이어서 실행됩니다.
-
+결국 `start0.txt` 237번째 줄로 돌아가며(시작 위치), 다시 이어서 실행됩니다.
+  
 <img alt="image" src="https://github.com/user-attachments/assets/d52b5562-9e7f-4e6e-aea2-e1b81765e369" />
 
 ## 스크립트 처리 예시: 사용자 선택지
 
 앞서 설명한 내용을 바탕으로 [Light.vn](https://soulengineproject.itch.io/lightvn)에서 사용자 선택지가 생성되는 구조를 이해할 수 있습니다.
 
-- `wait preventContinueRead`
-  - 파서를 wait 상태로 만들고  
-  - `continueRead`(예: `keyDown`에 바인딩)를 통한 진행 해제를 차단
-- `jump`는 선택지 버튼에 연결
-  - 사용자가 버튼을 클릭하면 `jump` 명령 실행
-  - wait 상태가 해제되고 파서가 지정된 위치로 이동해 계속 파싱
+- `대기 계속금지`
+  - 파서를 `대기` 상태로 만들고  
+  - `계속`(예: `키다운`에 바인딩)를 통한 진행 해제를 차단
+- `점프`는 선택지 버튼에 연결
+  - 사용자가 버튼을 클릭하면 `점프` 명령 실행
+  - `대기` 상태가 해제되고 파서가 지정된 위치로 이동해 계속 파싱
 
 결과: 사용자가 버튼을 클릭해야만 진행됩니다.
-
+  
 <img alt="image" src="https://github.com/user-attachments/assets/8de6cdd8-dbad-4a55-acf3-54c8479b97cc" />
 
 ## 오브젝트 레이어와 표시 우선순위
@@ -240,17 +241,17 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 같은 레이어 값을 가진 오브젝트 간에는 **순서가 보장되지 않으며**  
 (**실행 중에도 변동 가능!**)
 
-`Objects` 탭에서 레이어 값을 확인할 수 있습니다:
+`개체` 탭에서 레이어 값을 확인할 수 있습니다:
 - 파란색 하이라이트는 다른 오브젝트와 레이어 값이 겹친다는 의미
 - 값이 겹치면 이미지가 직접 겹치지 않도록 주의하세요  
   - 예: 텍스트박스 하단의 skip·auto 버튼 등은 이미지가 겹치지 않으므로 같은 레이어 값 사용 가능
-
+  
 <img alt="image" src="https://github.com/user-attachments/assets/794dceeb-b74e-424a-bfa0-4a296e5673ac" />
 
 ## 게임 내보내기
 
-`Project` → `Publish` 메뉴로 진행합니다.
-
+`프로젝트` → `배포` 메뉴로 진행합니다.
+  
 <img alt="image" src="https://github.com/user-attachments/assets/8aca900c-2e0d-4810-9ab4-807961a9a020" />
 
 **주의 사항**
@@ -275,9 +276,9 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 
 [Light.vn](https://soulengineproject.itch.io/lightvn) 16.7부터는 텍스트·이미지 등 리소스를 새 버전으로 교체해야 할 때
 
-`Project` → `Reload Resources`
+`프로젝트` → `리소스 새로고침`
 
 를 클릭하면 최신 리소스를 즉시 로드합니다.
-
+  
 <img alt="image" src="https://github.com/user-attachments/assets/aff9604e-03ed-4756-99a6-da12fa9271b4" />
 
