@@ -1,8 +1,8 @@
 ---
-title: 00. Quickstart
+title: 00. Light.vn 빠르게 확인하기
 description: 
 published: true
-date: 2025-07-17T02:37:35.767Z
+date: 2025-08-10T22:59:29.528Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-17T02:35:45.497Z
