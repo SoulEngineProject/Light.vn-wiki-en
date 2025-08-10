@@ -1,8 +1,8 @@
 ---
-title: 11. Visual Quality Tips
+title: 11. 연출 팁
 description: 
 published: true
-date: 2025-07-17T02:38:18.232Z
+date: 2025-08-10T23:11:54.415Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-17T02:38:18.232Z
