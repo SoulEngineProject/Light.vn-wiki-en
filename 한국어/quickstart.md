@@ -17,15 +17,15 @@ dateCreated: 2025-07-17T02:35:45.497Z
   - `Project` → `Settings`를 열고, `Start Script`에 방금 만든 스크립트의 경로를 지정합니다.
   - 아래 코드를 붙여넣습니다.
     ```
-    ~bg0 id0 bg/street_bg_noon.png | .fadein id0 300
+    ~배경0 id0 bg/street_bg_noon.png | .페이드인 id0 300
 
-    script /Plugins/lvui/_system/macros.txt // macros
+    스크립트 /Plugins/lvui/_system/macros.txt // macros
 
     ~textbox_bottom
 
     "This is my project!
 
-    ~cg0 id1 scg2.png 310 125 80 | zoom id1 100% | .fadein id1 300
+    ~그림0 id1 scg2.png 310 125 80 | 확대 id1 100% | .페이드인 id1 300
     ```
 - **PRO 팁**: Discord 서버에 꼭 참여하세요  
   - 질문 및 정보 교환의 허브 역할을 합니다.
@@ -64,7 +64,7 @@ dateCreated: 2025-07-17T02:35:45.497Z
    - 미리보기 화면이 업데이트되는지  
    - 탭 정보의 줄 번호가 커서 위치에 맞춰 변하는지 확인합니다.
 
-![image](https://github.com/user-attachments/assets/0e7a0742-eda9-4eed-b711-c557b5061858)
+<img alt="image" src="https://github.com/user-attachments/assets/a99240d0-0a6b-4bcd-bcb7-316e99f773b9" />
 
 ## 에디터 탐색 (2: 테스트 플레이 ↔ 편집 모드)
 
@@ -78,11 +78,11 @@ dateCreated: 2025-07-17T02:35:45.497Z
 
 `F5`를 반복해서 눌러 전환 감각을 익혀 보세요.
 
-![image](https://github.com/user-attachments/assets/dc47dd62-8cd5-4f9f-9683-9cb15c28df0b)
+<img alt="image" src="https://github.com/user-attachments/assets/a0c4d9f5-6710-4d8f-96d6-55490657c7d7" />
 
 ## 명령어 문법 읽는 방법
 
-![image](https://github.com/user-attachments/assets/19fdb11b-4ca5-4ef1-875d-e76f3552137b)
+<img width="2559" height="1380" alt="image" src="https://github.com/user-attachments/assets/f8dc586a-75ee-44fe-b8b8-bee47a31ccda" />
 
 스크립트에서 아무 명령어나 더블 클릭하면 `Commands` 탭이 열립니다.  
 각 명령어의 문법은 다음과 같이 표시됩니다.
@@ -105,7 +105,7 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 
 테스트 플레이 중에는 실행된 줄에 맞춰 자동으로 갱신되므로, 어떤 줄이 실행 중인지 바로 알 수 있습니다.
 
-![image](https://github.com/user-attachments/assets/4f2062cb-2739-4bd4-9113-b7d3eb09c221)
+<img alt="image" src="https://github.com/user-attachments/assets/1dee7d27-2397-4368-83c3-2b00bb083e4f" />
 
 ## '스크립트'를 구성하는 요소
 
@@ -122,7 +122,7 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 - 명령어인지 구분하는 방법:  
   - 더블 클릭 시 에디터가 `Commands` 탭으로 이동하여 문법·사용법을 보여줍니다.
 
-![image](https://github.com/user-attachments/assets/dcf5fee4-4cc1-4ece-859f-4fd1143b7247)
+<img alt="image" src="https://github.com/user-attachments/assets/c70cad59-3f46-4b90-84dc-f4f899311b95" />
 
 **대사(Dialogue)**  
 스크립트에서 `파란색`으로 전부 하이라이트되는 부분입니다.  
@@ -133,7 +133,7 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 이후 줄들은 모두 대사 구간으로 처리됩니다.  
 다시 [Light.vn](https://soulengineproject.itch.io/lightvn) 명령어 구간으로 돌아가려면 새 줄을 `~` 기호로 시작하세요.
 
-![image](https://github.com/user-attachments/assets/056caff1-6acc-4fa6-8a8b-96160a7524c0)
+<img alt="image" src="https://github.com/user-attachments/assets/25d131a0-f222-45a1-9a6d-70d65085dfd1" />
 
 **매크로(Macros)**  
 예: `commandMacro` 또는 `macro` 명령으로 생성됩니다.  
@@ -143,14 +143,14 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 
 `commandMacro`로 등록된 경우 더블 클릭 시 `Macros` 탭으로 이동하므로 매크로임을 쉽게 알 수 있습니다.
 
-![image](https://github.com/user-attachments/assets/35a108f1-1660-41a4-8b62-4eeb3db7d088)
+<img alt="image" src="https://github.com/user-attachments/assets/077c3895-6007-4261-9c8f-a6292b3432c0" />
 
 매크로는 기본적으로 **찾아바꾸기** 기능입니다.  
 반복해서 길게 입력해야 하는 [Light.vn](https://soulengineproject.itch.io/lightvn) 명령어를 캡슐화하여 편의를 제공하는 것이 목적입니다.
 
 예시는 `/Plugins/lvui/_system/macros.txt`에서 확인할 수 있습니다.
 
-![image](https://github.com/user-attachments/assets/c0611c86-a103-40b4-b3e2-3a6b408a21e3)
+<img alt="image" src="https://github.com/user-attachments/assets/3a42d23f-3bfc-4754-af6b-b57dd8bd9a5a" />
 
 ## 스크립트 처리 방식
 
@@ -171,7 +171,7 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 
 에디터의 `Key Triggers` 탭에서 키 바인딩을 확인할 수 있습니다.
 
-![image](https://github.com/user-attachments/assets/13979a26-5d85-412f-9d1d-e91503bf3215)
+<img alt="image" src="https://github.com/user-attachments/assets/0ff70d7a-4195-42f0-b0b6-fec3a8fe915e" />
 
 ## 스크립트 처리 방식 2
 
@@ -186,7 +186,7 @@ cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
 - 점프 후에는 해당 위치부터 계속 실행되며, 이전 wait 상태도 해제됩니다.  
 - 예: 사용자 선택지 구현에 활용.
 
-![image](https://github.com/user-attachments/assets/ccdecd67-1a25-49ff-be61-35534db82cb1)
+<img alt="image" src="https://github.com/user-attachments/assets/0ec657d5-fe37-458a-8461-1a9530c405c2" />
 
 `script`  
 - 대상 파일로 새 스크립트 파서를 생성해 스택 최상단에 push합니다.  
@@ -206,8 +206,8 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 
 호출 순서와 일치함을 확인할 수 있습니다.
 
-![image](https://github.com/user-attachments/assets/a2068ed8-5f06-4441-9533-888563f45647)  
-![image](https://github.com/user-attachments/assets/d8541cb1-8d07-4e25-8258-e287d868d75e)
+<img alt="image" src="https://github.com/user-attachments/assets/189f88f8-2714-4223-8e5c-330e9fa1007e" />
+<img alt="image" src="https://github.com/user-attachments/assets/c36f64ce-3e2d-4693-9393-8018627b1e2c" />
 
 그리고 역순으로,
 
@@ -216,7 +216,7 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 
 결국 `start0.txt` 211번째 줄로 돌아가며(시작 위치), 다시 이어서 실행됩니다.
 
-![image](https://github.com/user-attachments/assets/43203e71-f765-49e6-a541-59278b050b16)
+<img alt="image" src="https://github.com/user-attachments/assets/d52b5562-9e7f-4e6e-aea2-e1b81765e369" />
 
 ## 스크립트 처리 예시: 사용자 선택지
 
@@ -231,7 +231,7 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 
 결과: 사용자가 버튼을 클릭해야만 진행됩니다.
 
-![image](https://github.com/user-attachments/assets/1ab82570-1708-42c1-964f-b850e6453dd7)
+<img alt="image" src="https://github.com/user-attachments/assets/8de6cdd8-dbad-4a55-acf3-54c8479b97cc" />
 
 ## 오브젝트 레이어와 표시 우선순위
 
@@ -245,13 +245,13 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 - 값이 겹치면 이미지가 직접 겹치지 않도록 주의하세요  
   - 예: 텍스트박스 하단의 skip·auto 버튼 등은 이미지가 겹치지 않으므로 같은 레이어 값 사용 가능
 
-![image](https://github.com/user-attachments/assets/e56e9742-9c69-4769-b6ac-607375ae418c)
+<img alt="image" src="https://github.com/user-attachments/assets/794dceeb-b74e-424a-bfa0-4a296e5673ac" />
 
 ## 게임 내보내기
 
 `Project` → `Publish` 메뉴로 진행합니다.
 
-![image](https://github.com/user-attachments/assets/9a5b9732-9d5b-4cfc-90f9-1fad118625e1)
+<img alt="image" src="https://github.com/user-attachments/assets/8aca900c-2e0d-4810-9ab4-807961a9a020" />
 
 **주의 사항**
 
@@ -279,4 +279,5 @@ ID 탭에서 각 스크립트의 호출 관계를 확인할 수 있습니다.
 
 를 클릭하면 최신 리소스를 즉시 로드합니다.
 
-![image](https://github.com/user-attachments/assets/4fc29fe0-7f17-4ab5-a305-6c40b58c1fde)
+<img alt="image" src="https://github.com/user-attachments/assets/aff9604e-03ed-4756-99a6-da12fa9271b4" />
+
