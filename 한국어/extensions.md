@@ -27,13 +27,13 @@ dateCreated: 2025-07-17T02:38:52.695Z
 
 이제 플러그인 폴더를 압축(zip)하여 공유하면 됩니다.  
 사용자는 다음과 같이 스크립트를 호출할 수 있습니다.  
-- `script /Plugins/my_plugin/plugin.txt`
+- `스크립트 /Plugins/my_plugin/plugin.txt`
 
 ![image](https://github.com/user-attachments/assets/83ef0abe-69f3-4349-a212-1c5c46b7cd9e)
 
 ![image](https://github.com/user-attachments/assets/b72a7434-33dd-494c-83a0-ddc1d2b5b30a)
 
-![image](https://github.com/user-attachments/assets/08d42040-fd91-47f9-9628-99d43903bc93)
+<img alt="image" src="https://github.com/user-attachments/assets/095ff559-706d-4a77-a435-2f72853aced1" />
 
 ## 플레이어 확장: 리소스 커스터마이즈
 
