@@ -1,8 +1,8 @@
 ---
-title: 99. External Tutorials
+title: 99. 외부 튜토리얼
 description: 
 published: true
-date: 2025-07-17T02:39:58.986Z
+date: 2025-08-10T23:10:50.986Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-17T02:39:58.986Z
