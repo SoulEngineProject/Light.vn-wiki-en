@@ -10,7 +10,7 @@ dateCreated: 2025-07-18T22:36:52.668Z
 
 ## 공통
 
-모든 패키징 작업은 `Project` → `Publish` 메뉴에서 원하는 패키지 유형을 실행하는 것부터 시작합니다.
+모든 패키징 작업은 `프로젝트` → `배포` 메뉴에서 원하는 패키지 유형을 실행하는 것부터 시작합니다.
 
 ## C++ (데스크톱)
 
@@ -28,7 +28,7 @@ dateCreated: 2025-07-18T22:36:52.668Z
 
 사용자에게 전체 게임을 다시 다운로드하게 하는 대신, 최소한의 `Patch`만 배포할 수 있습니다.
 
-- <img alt="image" src="https://github.com/user-attachments/assets/83581d27-41ac-49e9-a74c-1141400b3b05" />
+- <img alt="image" src="https://github.com/user-attachments/assets/c29ea848-76f8-47ef-948d-bd1a115ce579" />
 - 실행하면 `Patch` 폴더가 생성되며, 이를 압축(zip)하여 사용자에게 전달한 뒤 게임 루트 폴더에 넣도록 안내하면 됩니다.
 
 ## Web
