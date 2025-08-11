@@ -1,11 +1,11 @@
 ---
-title: 20. Packaging
+title: 20. 배포
 description: 
 published: true
-date: 2025-07-18T22:36:52.668Z
+date: 2025-08-11T00:31:13.066Z
 tags: 
 editor: markdown
-dateCreated: 2025-07-18T22:36:52.668Z
+dateCreated: 2025-07-29T01:22:31.488Z
 ---
 
 ## 공통
