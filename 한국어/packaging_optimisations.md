@@ -1,11 +1,11 @@
 ---
-title: 21. Packaging Optimisations
-description: Optimisations when packaging your game
+title: 21. 배포 최적화
+description: 게임 배포시의 최적화 작업
 published: true
-date: 2025-07-18T22:37:32.456Z
+date: 2025-08-11T00:28:28.686Z
 tags: 
 editor: markdown
-dateCreated: 2025-07-18T22:37:32.456Z
+dateCreated: 2025-07-29T01:22:34.653Z
 ---
 
 ## 파일 최적화
