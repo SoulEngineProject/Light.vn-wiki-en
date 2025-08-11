@@ -12,7 +12,7 @@ dateCreated: 2025-07-17T02:37:21.392Z
 
 시나리오 줄의 시작에 `.`을 붙이면 새 줄이 생성됩니다.  
 하나 이상 연속으로 사용할 수도 있습니다!
-```...hello```
+```...안녕```
 위 예시는 새 줄을 **3줄** 생성합니다.
 
 ## 씬 정리
@@ -154,10 +154,10 @@ Light.vn 샘플에는 입문자 친화성을 위해 **예시 A**가 많이 쓰�
 
 ~터치리소스 btn_prototype.png btn_prototype_touch.png btn_prototype_click.png
 ~버튼 test1 100 300 80
-~버튼텍스트 test1 NotoSansCJKjp-Regular.otf 24 "날 클릭해"
+~버튼텍스트 test1 NotoSansCJKjp-Regular.otf 24 "click me"
 
 ~버튼 test2 100 400 80
-~버튼텍스트 test2 NotoSansCJKjp-Regular.otf 24 "나도 클릭해봐"
+~버튼텍스트 test2 NotoSansCJKjp-Regular.otf 24 "click me too"
 ```
 
 `사각그림등록`는 `애니등록`, `합성그림등록` 등과 마찬가지로  
