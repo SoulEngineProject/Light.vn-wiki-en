@@ -1,8 +1,8 @@
 ---
-title: 10. Productivity Tips
+title: 10. 작업 효율성 향상 팁
 description: 
 published: true
-date: 2025-07-17T02:37:21.392Z
+date: 2025-08-11T00:27:25.505Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-17T02:37:21.392Z
