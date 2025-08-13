@@ -10,6 +10,7 @@ dateCreated: 2025-07-17T02:35:45.497Z
 
 ## 첫 번째 [Light.vn](https://soulengineproject.itch.io/lightvn) 프로젝트를 위한 스타터 팁
 
+- [itch.io](https://soulengineproject.itch.io/lightvn)에서 `kr`이 붙은 최신 샘플을 다운로드해주세요.
 - 샘플 게임을 처음부터 끝까지 플레이해 보세요  
   - 어떤 부분을 복사·붙여넣기하거나 커스터마이즈할 수 있을지 감을 잡을 수 있습니다.
 - `LightEditor.exe` 실행  
@@ -29,6 +30,17 @@ dateCreated: 2025-07-17T02:35:45.497Z
     ```
 - **PRO 팁**: Discord 서버에 꼭 참여하세요  
   - 질문 및 정보 교환의 허브 역할을 합니다.
+
+## 최신 버전의 Light.vn을 사용하고자 하면
+
+Light.vn의 최신 버전은 일본어로 먼저 나옵니다.  
+- 개발시에는 일본어 버전 (`jp`)를 다운로드해서
+- `作品` -> `設定`을 열고
+- `エディター` -> `使用言語`를 `kor`로 설정해서
+  - `Save`를 누르면 한국어 UI로 업데이트해서 사용해도 됩니다. 
+
+<img alt="image" src="https://github.com/user-attachments/assets/99e5d01d-fff0-49ca-ab16-516f22301619" />
+<img alt="image" src="https://github.com/user-attachments/assets/e2fd4a63-392a-4ae1-9daf-c2d2cea4fb8a" />
 
 ## 폴더 구조
 
